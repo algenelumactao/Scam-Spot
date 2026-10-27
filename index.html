@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Digital Safety Guide</title>
+  <meta name="description" content="Learn how to stay safe from online scams in simple steps.">
+  <meta name="theme-color" content="#f5f6fa">
+  <meta property="og:title" content="Digital Safety Guide">
+  <meta property="og:description" content="Learn how to stay safe from online scams in simple steps.">
+  <meta property="og:type" content="website">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/png" href="assets/icons/icon-192.png">
+  <link rel="apple-touch-icon" href="assets/icons/icon-192.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- On phones this fills the screen. On laptops/tablets it sits inside an iPhone 16 frame. -->
+  <div class="stage" id="stage">
+    <div class="device" id="device">
+      <span class="sb sb-action"></span><span class="sb sb-volup"></span><span class="sb sb-voldn"></span>
+      <span class="sb sb-power"></span><span class="sb sb-camera"></span>
+      <div class="device-screen">
+        <div id="app"></div>
+        <div class="statusbar" aria-hidden="true">
+          <span class="time">9:41</span>
+          <span class="status-icons">
+            <svg width="18" height="12" viewBox="0 0 18 12"><rect x="0" y="8" width="3" height="4" rx="1"/><rect x="5" y="5.5" width="3" height="6.5" rx="1"/><rect x="10" y="3" width="3" height="9" rx="1"/><rect x="15" y="0" width="3" height="12" rx="1"/></svg>
+            <svg width="17" height="12" viewBox="0 0 17 12"><path d="M8.5 2.3c2.3 0 4.4.9 6 2.4l1.1-1.2A10.5 10.5 0 0 0 8.5.6C5.7.6 3.2 1.7 1.4 3.5l1.1 1.2a8.8 8.8 0 0 1 6-2.4Zm0 3.6c1.4 0 2.7.5 3.7 1.4l1.1-1.2a7.2 7.2 0 0 0-9.6 0l1.1 1.2c1-.9 2.3-1.4 3.7-1.4Zm0 3.5c-.6 0-1.2.2-1.6.6L8.5 12l1.6-2c-.4-.4-1-.6-1.6-.6Z"/></svg>
+            <svg width="27" height="13" viewBox="0 0 27 13"><rect x=".5" y=".5" width="22" height="12" rx="3.5" fill="none" stroke="currentColor" opacity=".4"/><rect x="2" y="2" width="19" height="9" rx="2.2"/><rect x="24" y="4" width="2.2" height="5" rx="1.1" opacity=".5"/></svg>
+          </span>
+        </div>
+        <div class="island"></div>
+        <div class="home-bar"></div>
+      </div>
+    </div>
+  </div>
+  <noscript>The Digital Safety Guide needs JavaScript to run. Please turn it on in your browser settings. If you were scammed right now, call your bank or e-wallet hotline (the number on your card or in the official app) immediately.</noscript>
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
